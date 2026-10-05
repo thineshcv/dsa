@@ -18,7 +18,7 @@ The core idea
 example:
 ```
 [5] 2 4 6 1 3
- ↓
+ ↓-
 [2, 5] 4 6 1 3
  ↓
 [2, 4, 5] 6 1 3
@@ -30,8 +30,8 @@ example:
 [1, 2, 3, 4, 5, 6]
 ```
 
-## Psedo
-``` Psedo
+## Pseudo
+``` Pseudo
 Insertion-Sort(A,n)
 for i = 2 to n 
   key = A[i]
@@ -41,10 +41,13 @@ for i = 2 to n
     j = j - | Column1 
   A[j+1] = key
 ```
-```
-
-```
 
 Python implementation - ![[../code_snippets/python/01_insertion.sort.py]]
-```
-```
+
+
+## Loop Invariants
+- the properties of `A[i-1]` (the sorted subset) is formally stated as loop Invariants
+**Initialization** It is true prior to the first iteration of the loop.
+**Maintenance** If it is true before the iteration of the loop it remains true before the iteration of the next loop.
+**Termination** The loop terminates, and when it terminates, the invariant(usually along with the reason it terminated) - gives us a useful property that helps show that the algorithm is correct.
+
