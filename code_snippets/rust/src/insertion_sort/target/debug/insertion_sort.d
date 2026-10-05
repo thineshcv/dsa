@@ -1,0 +1,1 @@
+/home/gilfoyle/data/play/algorithms_and_dsa/dsa/code_snippets/rust/src/insertion_sort/target/debug/insertion_sort: /home/gilfoyle/data/play/algorithms_and_dsa/dsa/code_snippets/rust/src/insertion_sort/src/main.rs
